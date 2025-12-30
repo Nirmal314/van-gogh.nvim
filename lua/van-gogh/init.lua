@@ -1,32 +1,42 @@
 local M = {}
 
 local colors = {
-    bg = "#0a192f",
-    fg = "#f5d76e",
-    selected_bg = "#1c3a5e",
-    selected_fg = "#f5d76e",
-    inactive_fg = "#1c3a5e",
-    highlight = "#e6b422",
-    gradient_start = "#e6b422",
-    gradient_mid = "#f5d76e",
-    gradient_end = "#1c3a5e",
-    black = "#0a192f",
-    red = "#e6b422",
-    green = "#1c3a5e",
-    yellow = "#f5d76e",
-    blue = "#1c3a5e",
-    magenta = "#e6b422",
-    cyan = "#1c3a5e",
-    white = "#f5d76e",
-    bright_black = "#1c3a5e",
-    bright_red = "#e6b422",
-    bright_green = "#1c3a5e",
-    bright_yellow = "#f5d76e",
-    bright_blue = "#1c3a5e",
-    bright_magenta = "#e6b422",
-    bright_cyan = "#1c3a5e",
-    bright_white = "#f5d76e",
+  bg = "#0B1E2D",
+  fg = "#F4C7A1",
+
+  selected_bg = "#16344A",
+  selected_fg = "#FFE1B3",
+
+  inactive_fg = "#8AA1B4",
+
+  highlight = "#FF9F1C",
+
+  gradient_start = "#FFC857",
+  gradient_mid = "#FF9F1C",
+  gradient_end = "#E76F51",
+
+  black = "#0E2638",
+
+  red = "#E76F51",
+  green = "#F4A261",
+  yellow = "#FFC857",
+
+  blue = "#4DA3C7",
+
+  magenta = "#FF9F1C",
+  cyan = "#FFD7A8",
+  white = "#FFF1DC",
+
+  bright_black = "#16344A",
+  bright_red = "#F28482",
+  bright_green = "#FFB703",
+  bright_yellow = "#FFD166",
+  bright_blue = "#6EC1E4",
+  bright_magenta = "#FFB347",
+  bright_cyan = "#FFE8C2",
+  bright_white = "#FFF8ED",
 }
+
 
 M.set_highlights = function()
     -- Clear existing highlights
