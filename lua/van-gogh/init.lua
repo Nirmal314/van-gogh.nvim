@@ -1,15 +1,15 @@
 local M = {}
 
 local colors = {
-  bg = "#0B1E2D",
-  fg = "#F4C7A1",
+  bg = "#0a192f",
+  fg = "#f2e2a4",
 
-  selected_bg = "#16344A",
-  selected_fg = "#FFE1B3",
+  selected_bg = "#2c4668",
+  selected_fg = "#f2e2a4",
 
-  inactive_fg = "#8AA1B4",
+  inactive_fg = "#8faac7",
 
-  highlight = "#FF9F1C",
+  highlight = "#e6b422",
 
   gradient_start = "#FFC857",
   gradient_mid = "#FF9F1C",
